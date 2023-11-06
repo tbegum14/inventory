@@ -1,0 +1,37 @@
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul li{
+  padding: 20px;
+  list-style-type: none;
+}
+
+section{
+  padding: 30px;
+}
+
+.food {
+  padding: 20px;
+  display: block;
+  border-radius: 9px;
+  background-color: lightblue;
+  width: 20%;
+  margin-bottom: 20px;
+}
+
+.food-items{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.food img{
+  max-width: 100%;
+  max-height: 50%;
+}
